@@ -21,7 +21,7 @@
     </ul>
     <h3>Ecosystem</h3>
     
-    <ZalAmin/>
+    <!-- <ZalAmin/> -->
     <ul>
       <li><a href="https://router.vuejs.org" target="_blank" rel="noopener">vue-router</a></li>
       <li><a href="https://vuex.vuejs.org" target="_blank" rel="noopener">vuex</a></li>
@@ -33,16 +33,16 @@
 </template>
 
 <script>
-import ZalAmin from 'remote-app/ZalAmin';
+// import ZalAmin from 'remote-app/ZalAmin';
 
 export default {
   name: 'HelloWorld',
   props: {
     msg: String
   },
-  components: {
-    ZalAmin
-  },
+  // components: {
+  //   ZalAmin
+  // },
 }
 </script>
 

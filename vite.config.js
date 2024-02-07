@@ -8,11 +8,9 @@ export default defineConfig({
     vue(),
     federation({
       name: 'host-simple',
-      filename: 'remoteEntry.js',
       remotes: {
-        'remote-app': "http://127.0.0.1:8080/assets/remoteEntry.js",
+        'remote-simple': 'http://localhost:8084/assets/remoteEntry.js'
       },
-      // shared: ['vue']
     }),
   ]
 })
